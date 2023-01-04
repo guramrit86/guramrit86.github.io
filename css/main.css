@@ -84,7 +84,7 @@ nav{
 
 .landing-content{
   max-width: 1100px;
-  margin: 25vh auto 30vh auto;
+  margin: 25vh auto 10vh auto;
   padding: 0 0em 0 0em;
 }
 .footer-content{
@@ -140,6 +140,30 @@ transition: all 0.8s;
 }
 
 .portfolio-item-3{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0em 0 5em 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.08);
+  transition: all 0.8s;
+}
+
+.portfolio-item-4{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0em 0 5em 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.08);
+  transition: all 0.8s;
+}
+
+.portfolio-item-5{
   flex-basis:100%;
   display: flex;
   flex-direction: row;
@@ -435,4 +459,10 @@ a.telus,
 a.telus:hover {
   font-weight: 500;
   color: rgb(36, 135, 0);
+}
+
+a.productboard,
+a.productboard:hover {
+  font-weight: 500;
+  color: #0071e1;
 }
